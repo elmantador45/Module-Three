@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Similarity: Genres, Ratings & Titles</title>
+    <style>
+        body {
+            background-color: rgb(71, 45, 56);
+        }
+
+        .header {
+            color: white;
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        table {
+            width: 50%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            border: 1px solid black;
+            color: white;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid black;
+        }
+
+        th {
+            background-color: #0c0c0c;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Similarity: Genres, Ratings & Relevance</h1>
+    </div>
+
+    <table id="genresTable">
+        <thead>
+            <tr>
+                <th>Ten Titles Similar In Genre (Drama)</th>
+                <th>Similarity Score (Jaccard)</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <table id="ratingTable">
+        <thead>
+            <tr>
+                <th>Ten Titles In Rating </th>
+                <th>User Rating </th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <table id="similarTitlesTable">
+        <thead>
+            <tr>
+                <th>Ten Titles Similar To Game Of Thrones</th>
+                <th>Similarity Score (Jaccard) </th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <script src="module_three_script.js"></script>
+</body>
+</html>
